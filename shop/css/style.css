@@ -1,0 +1,84 @@
+.custom-number-input input[type="number"]::-webkit-inner-spin-button,
+.custom-number-input input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-number-input input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.custom-number-input input:focus {
+  outline: none !important;
+}
+
+.custom-number-input button:focus {
+  outline: none !important;
+}
+
+.owl-dot:hover span, .owl-dot.active span {
+  background-color: #667eea !important;
+}
+
+.product a img,
+.brand-item a img {
+  -webkit-transition: ease-in-out 0.3s transform;
+  transition: ease-in-out 0.3s transform;
+  width: auto;
+  margin: auto;
+  height: auto;
+}
+
+.product a:hover img,
+.brand-item a:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#top-sale-carousel .owl-next,
+#top-sale-carousel .owl-prev {
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  font-size: 2rem;
+  outline: none;
+}
+
+#top-sale-carousel .owl-next:hover,
+#top-sale-carousel .owl-prev:hover {
+  background-color: transparent;
+}
+
+#top-sale-carousel .owl-next:hover span,
+#top-sale-carousel .owl-prev:hover span {
+  color: black;
+}
+
+#top-sale-carousel .owl-next {
+  right: -10px !important;
+}
+
+#top-sale-carousel .owl-prev {
+  left: -10px !important;
+}
+
+#brand-filter button.is-active {
+  color: black !important;
+}
+
+#brands-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+#brands-grid .brand-item .h-64 {
+  height: auto !important;
+}
+/*# sourceMappingURL=style.css.map */

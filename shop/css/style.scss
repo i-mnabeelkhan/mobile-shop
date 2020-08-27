@@ -1,0 +1,81 @@
+//globals
+.custom-number-input {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input:focus {
+    outline: none !important;
+  }
+
+  button:focus {
+    outline: none !important;
+  }
+}
+
+.owl-dot {
+  &:hover,
+  &.active {
+    span {
+      background-color: #667eea !important;
+    }
+  }
+}
+.product,
+.brand-item {
+  a {
+    img {
+      transition: ease-in-out 0.3s transform;
+      width: auto;
+      margin: auto;
+      height: auto;
+    }
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+#top-sale-carousel {
+  .owl-next,
+  .owl-prev {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    font-size: 2rem;
+    outline: none;
+    &:hover {
+      background-color: transparent;
+      span {
+        color: black;
+      }
+    }
+  }
+  .owl-next {
+    right: -10px !important;
+  }
+  .owl-prev {
+    left: -10px !important;
+  }
+}
+#brand-filter {
+  button.is-active {
+    color: black !important;
+  }
+}
+#brands-grid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  .brand-item {
+    .h-64 {
+      height: auto !important;
+    }
+  }
+}

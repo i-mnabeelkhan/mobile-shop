@@ -1,0 +1,10 @@
+<?php
+include("header.php");
+include("templates/_hero.php");
+include("templates/_top-sale.php");
+include("templates/_brand.php");
+include("templates/_advertise.php");
+include("templates/_new-phones.php");
+include("templates/_blog.php");
+include("footer.php");
+?>
